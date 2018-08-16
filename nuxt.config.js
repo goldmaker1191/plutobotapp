@@ -43,12 +43,12 @@ module.exports = {
     // API middleware
     bodyParser.json(),
     // session middleware
-    session({
-      secret: "Pluto123$",
-      resave: false,
-      saveUninitialized: false,
-      cookie: { maxAge: 60000 }
-    }),
+    // session({
+    //   secret: "Pluto123$",
+    //   resave: false,
+    //   saveUninitialized: false,
+    //   cookie: { maxAge: 60000 }
+    // }),
 
      '~/server/server.js'
   ],

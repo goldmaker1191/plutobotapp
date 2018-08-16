@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run build",
     "local": "nodemon --exec babel-node server.js --watch server.js --watch ./routes --watch ./controllers --watch ./api --watch ./middleware --watch ./models --watch ./config -e js ",
     "upload": "nodemon --exec npm run push",
