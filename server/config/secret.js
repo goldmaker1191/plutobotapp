@@ -3,7 +3,7 @@ module.exports = {
   appurl: "https://plutobot.herokuapp.com",
   database: process.env.NODE_ENV
     ? "mongodb://localhost:27017/plutobot"
-    : "mongodb://localhost:27017/plutobot", // production: mongodb://user:pass@ds239117.mlab.com:39117/pluto-new
+    : process.env.DB_URL, // production: mongodb://user:pass@ds239117.mlab.com:39117/pluto-new
   port: process.env.PORT || 3000,
   secretKey: "plutobot$",
   host: process.env.HOST || "localhost",
