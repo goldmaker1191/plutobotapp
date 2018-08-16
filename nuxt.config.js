@@ -50,7 +50,7 @@ module.exports = {
     //   cookie: { maxAge: 60000 }
     // }),
 
-     '~/server/server.js'
+     // '~/server/server.js'
   ],
   env: {
     GOOGLE_APPLICATION_CREDENTIALS: process.env.GOOGLE_APPLICATION_CREDENTIALS || 'service-account-file.json'
