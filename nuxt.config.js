@@ -52,7 +52,6 @@ module.exports = {
 
      '~/server/server.js'
   ],
-
   env: {
     GOOGLE_APPLICATION_CREDENTIALS: process.env.GOOGLE_APPLICATION_CREDENTIALS || 'service-account-file.json'
   }
