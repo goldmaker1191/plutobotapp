@@ -48,7 +48,9 @@ module.exports = {
       resave: false,
       saveUninitialized: false,
       cookie: { maxAge: 60000 }
-    })
+    }),
+
+     '~/server/server.js'
   ],
 
   env: {
